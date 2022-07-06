@@ -48,15 +48,35 @@ ul {
 
 li {
   margin: 10px;
+  color: #edf2f4;
 }
-a {
+.inicio {
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.servicios{
   cursor: pointer;
   color: #edf2f4;
   transition: background-color 0.5s;
 }
-a:hover {
+
+.productos{
+  cursor: pointer;
+  color: #edf2f4;
+  transition: background-color 0.5s;
+}
+
+.contacto {
+  cursor: pointer;
+  color: #edf2f4;
+  transition: background-color 0.5s;
+}
+
+nav div ul li a:hover {
   background-color: rgba(255, 217, 0, 0.336);
 }
+
 
 /* article*/
 article {
@@ -101,34 +121,38 @@ text-align: justify;
   background-color: #0D1B2A;
   color: #edf2f4;
 }
-#bt2{
+#bt2 {
   margin: 10px;
   cursor: pointer;
   border-radius: 20px;
   background-color: #0D1B2A;
   color: #edf2f4;
   bottom: unset;
-  
 }
+
 
 
 .arti-img {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
-
+  align-items: center;
   margin: 20px;
   border: 10px;
 }
 
+
 #img1 {
   width: 650px;
   margin: 10px 5px 10px 5px;
+  
 }
 
 #img2 {
   width: 650px;
   margin: 10px 5px 10px 5px;
+  max-width: 100%;
+  
 }
 /* section */
 
@@ -145,5 +169,9 @@ section {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+}
 
+footer {
+  text-align: center;
+  color: aliceblue;
 }
