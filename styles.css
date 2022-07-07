@@ -48,27 +48,21 @@ ul {
 
 li {
   margin: 10px;
+  cursor: pointer;
 }
 .inicio {
-  cursor: pointer;
   transition: background-color 0.5s;
 }
 
-.servicios {
-  cursor: pointer;
-  color: #edf2f4;
+.servicios { 
   transition: background-color 0.5s;
 }
 
-.productos {
-  cursor: pointer;
-  color: #edf2f4;
+.productos { 
   transition: background-color 0.5s;
 }
 
-.contacto {
-  cursor: pointer;
-  color: #edf2f4;
+.contacto { 
   transition: background-color 0.5s;
 }
 
@@ -111,6 +105,7 @@ p {
   color: #edf2f4;
   flex-direction: column;
   justify-content: space-evenly;
+  text-decoration: none;
 }
 
 #bt1 {
@@ -118,7 +113,6 @@ p {
   cursor: pointer;
   border-radius: 20px;
   background-color: #0d1b2a;
-  color: #edf2f4;
 }
 
 #bt2 {
@@ -126,13 +120,12 @@ p {
   cursor: pointer;
   border-radius: 20px;
   background-color: #0d1b2a;
-  color: #edf2f4;
-  bottom: unset;
 }
 
 #donenc {
   color: #edf2f4;
   text-decoration: none;
+  text-decoration: underline;
 }
 
 .arti-img {
@@ -238,4 +231,3 @@ footer {
     font-size: 15px;
   }
 }
-
