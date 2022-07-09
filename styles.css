@@ -231,3 +231,20 @@ footer {
     font-size: 15px;
   }
 }
+
+
+
+
+/* Pag Turnos */
+#turlist {
+  display: flex;
+  color: #edf2f4;
+  border: 0px;
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
