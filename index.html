@@ -6,71 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lubricentro Los Perez</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/turnos.html" />
   </head>
-    <div class="container">
-    <header>
-      <img id="logo" src="Logo.png" alt="logo" />
 
-      <nav>
-        <div>
+  <body>
+    <header>
+      <!-- navlist -->
+      <div class="navbar">
+        <img id="logo" src="Logo.png" alt="logo" />
+        <nav>
           <ul class="nav-list">
             <li><a id="inicio">INICIO</a></li>
-            <li><a id="servicios">SERVICIOS</a></li>
-            <li><a id="productos">PRODUCTO</a></li>
+            <li><a id="#servicios">SERVICIOS</a></li>
+            <li><a id="productos">NOSOTROS</a></li>
             <li><a id="contacto">CONTACTO</a></li>
           </ul>
-        </div>
-      </nav>
-    </header>
-    <body>
-    <main>
-    <article>
-      <div>
-        <h2>
-          LUBRICENTRO LOS PEREZ
-        <h2>
-        
-        <sub> 
-      <p> Somos Lubricentro Los Perez una empresa atendida por sus dueños. Nos
-      dedicamos a realizar service completo en todo tipo de vehículos, tenemos 5
-      años de experiencia en el rubro. El service incluye cambio de aceite,
-      cambio de filtro, cambio de agua y revisión de caja, cambio de pastillas
-      de frenos, revisión general del vehículo. Contamos con un equipo de
-      profesionales especializado cuyo fin es brindar un servicio de calidad.
-      Vení a conocernos.</p>
-        </sub> 
-<div class="button">
-          <button id="bt1"> <a id="donenc" href="./turnos.html"; target="_blank"> SOLICITA TU TURNO</button></a>
-          <button id="bt2"> <a id="donenc" href="https://www.google.com/maps/place/Lubricentro+Los+P%C3%A9rez/@-34.6041215,-58.4404318,15z/data=!4m5!3m4!1s0x0:0xd9161056113a152a!8m2!3d-34.6041215!4d-58.4404318"; target="_blank"> DONDE ENCONTRARNOS</a></button>
-        </div>
-        </div>
-      <div class="arti-img">
-<img id="img1" src="./img Article 2.jpg"  alt="IMG1">
-      <img id="img2" src="IMG Article.jpg" alt="IMG2"/>
-    </div>
-  </article>
-  </main>
-   <!-- <section class="infoproductos">
-      <div>
-      <ul clas="list-productos">
-        <li>Accesorios de cosmética del automotor</li>
-
-        <li>Escobilla de limpiavidrios</li>
-
-        <li>Lubricantes de motos</li>
-
-        <li>Línea de lubricantes Valvoline</li>
-
-        <li>Línea YPF Elaion f10, f30, f50</li>
-
-        <li>Variedad de aditivos para el motor y para caja.</li>
-
-        <li>¡Y mucho más!</li>
+        </nav>
       </div>
-    </section>-->
-  </div>
+    </header>
+
+    <!-- titulo-->
+    <main>
+      <article class="intro">
+        <div class="text-p">
+          <h2>LUBRICENTRO LOS PEREZ</h2>
+          <p id="parrafo">
+            Somos Lubricentro Los Perez una empresa atendida por sus dueños. Nos
+            dedicamos a realizar service completo en todo tipo de vehículos,
+            tenemos 5 años de experiencia en el rubro. El service incluye cambio
+            de aceite, cambio de filtro, cambio de agua y revisión de caja,
+            cambio de pastillas de frenos, revisión general del vehículo.
+            Contamos con un equipo de profesionales especializado cuyo fin es
+            brindar un servicio de calidad. Vení a conocernos.
+          </p>
+
+          <!-- button-->
+          <div class="button">
+            <ul>
+              <li id="bt1">
+                <a
+                  id="donenc"
+                  href="https://www.google.com/maps/place/Lubricentro+Los+P%C3%A9rez/@-34.6041215,-58.4404318,15z/data=!4m5!3m4!1s0x0:0xd9161056113a152a!8m2!3d-34.6041215!4d-58.4404318"
+                  ;
+                  target="_blank"
+                  >Donde encontrarnos</a
+                >
+              </li>
+              <li id="bt1">
+                <a id="donenc">Solicita tu turno</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="img-art">
+          <img src="./IMG Article.jpg" id="img1" />
+          <img src="./img Article 2.jpg" id="img2" />
+        </div>
+      </article>
+
+      <!--section-carts-->
+      <section class="descrition-section" id="servicios">
+        <div class="cards__container">
+          <div class="carts">
+            <img
+              src="./chevrolet-removebg-preview.png"
+              alt="chevrolet"
+              id="chev"
+            />
+            <p>Solicita turno para tu CHEVROLET</p>
+          </div>
+          <div class="carts">
+            <img
+              src="./volkswagen-removebg-preview.png"
+              alt="volkswagen"
+              id="vw"
+            />
+            <p>Solicita turno para tu VOLKSWAGEN</p>
+          </div>
+          <div class="carts">
+            <img src="./peugeot-removebg-preview.png" alt="peugeot" id="peug" />
+            <p>Solicita turno para tu PEUGEOT</p>
+          </div>
+          <div class="carts">
+            <img src="./fiat-removebg-preview.png" alt="fiat" id="fiat" />
+            <p>Solicita turno para tu FIAT</p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
-  <footer>
-    <span>HOLA</span>
+
+  <footer class="pie-de-pagina">
+    <h3><i class="fa-solid fa-hand-point-down"></i>PODES ENCONTRARNOS <i class="fa-solid fa-hand-point-down"></i></h3>
+    
+    <div class="box">
+          <img id="img-footer" src="./Logo.png" alt="logo-footer"/>
+      
+      </div>
+      <div class="red-social">
+        <ul>
+        <li>
+          SEGUIME EN FACEBOOK  <i class="fa-solid fa-hand-point-right"></i>
+          <a
+            href="https://www.facebook.com/mauro.perezacosta.75"
+            target="_blank"
+            class="facebook"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          SEGUIME EN INSTAGRAM <i class="fa-solid fa-hand-point-right"></i> <a
+            href="https://www.instagram.com/tallerlosperez/?hl=es"
+            target="_blank" class="instagram"
+            ><i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      </div>
+    </div>
+    <div class="box1">
+      <small
+        ><i class="fa-solid fa-copyright"></i> <b>2022 PEREZITO</b> - Todos Los
+        Derechos Reservados.</small
+      >
+    </div>
   </footer>
 </html>
