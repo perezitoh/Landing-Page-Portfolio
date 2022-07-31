@@ -1,142 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lubricentro Los Perez</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="/turnos.html" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lubricentro Los Perez</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/turnos/turnos.html" />
+</head>
+
+<body>
+  <div class="header-container">
     <header>
       <!-- navlist -->
-      <div class="navbar">
-        <img id="logo" src="Logo.png" alt="logo" />
-        <nav>
-          <ul class="nav-list">
-            <li><a id="inicio">INICIO</a></li>
-            <li><a id="#servicios">SERVICIOS</a></li>
-            <li><a id="productos">NOSOTROS</a></li>
-            <li><a id="contacto">CONTACTO</a></li>
-          </ul>
-        </nav>
+      <div class="logo-container">
+        <img src="Logo.png" alt="logo" />
       </div>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="list">INICIO</a></li>
+          <li><a href="#servicios" class="list">SERVICIOS</a></li>
+          <li><a href="productos" class="list">NOSOTROS</a></li>
+          <li><a href="contacto" class="list">CONTACTO</a></li>
+        </ul>
+      </nav>
     </header>
-
-    <!-- titulo-->
-    <main>
-      <article class="intro">
-        <div class="text-p">
-          <h2>LUBRICENTRO LOS PEREZ</h2>
-          <p id="parrafo">
-            Somos Lubricentro Los Perez una empresa atendida por sus dueños. Nos
-            dedicamos a realizar service completo en todo tipo de vehículos,
-            tenemos 5 años de experiencia en el rubro. El service incluye cambio
-            de aceite, cambio de filtro, cambio de agua y revisión de caja,
-            cambio de pastillas de frenos, revisión general del vehículo.
-            Contamos con un equipo de profesionales especializado cuyo fin es
-            brindar un servicio de calidad. Vení a conocernos.
-          </p>
+  </div>
+  <!-- section-container-->
+  <main>
+    <div class="section-container">
+      <div class="section-title">
+        <h2>LUBRICENTRO LOS PEREZ</h2>
+      </div>
+      <section class="section" id="inicio">
+        <div class="description-container">
+          <div class="text-container">
+            <p>
+              Somos Lubricentro Los Perez una empresa atendida por sus dueños. Nos
+              dedicamos a realizar service completo en todo tipo de vehículos,
+              tenemos 5 años de experiencia en el rubro. El service incluye cambio
+              de aceite, cambio de filtro, cambio de agua y revisión de caja,
+              cambio de pastillas de frenos, revisión general del vehículo.
+              Contamos con un equipo de profesionales especializado cuyo fin es
+              brindar un servicio de calidad. Vení a conocernos.
+            </p>
+          </div>
 
           <!-- button-->
           <div class="button">
             <ul>
               <li id="bt1">
-                <a
-                  id="donenc"
+                <a id="button-section"
                   href="https://www.google.com/maps/place/Lubricentro+Los+P%C3%A9rez/@-34.6041215,-58.4404318,15z/data=!4m5!3m4!1s0x0:0xd9161056113a152a!8m2!3d-34.6041215!4d-58.4404318"
-                  ;
-                  target="_blank"
-                  >Donde encontrarnos</a
-                >
+                  ; target="_blank">Donde encontrarnos</a>
               </li>
               <li id="bt1">
-                <a id="donenc">Solicita tu turno</a>
+                <a id="button-section" href="./turnos/turnos.html" target="_blank">Solicita tu turno</a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="img-art">
-          <img src="./IMG Article.jpg" id="img1" />
-          <img src="./img Article 2.jpg" id="img2" />
+        <div class="section-img">
+          <div class="inicio-img"></div>
+          <div class="inicio-img2"></div>
         </div>
-      </article>
+    </div>
+    </section>
+    </div>
 
-      <!--section-carts-->
-      <section class="descrition-section" id="servicios">
-        <div class="cards__container">
-          <div class="carts">
-            <img
-              src="./chevrolet-removebg-preview.png"
-              alt="chevrolet"
-              id="chev"
-            />
-            <p>Solicita turno para tu CHEVROLET</p>
-          </div>
-          <div class="carts">
-            <img
-              src="./volkswagen-removebg-preview.png"
-              alt="volkswagen"
-              id="vw"
-            />
-            <p>Solicita turno para tu VOLKSWAGEN</p>
-          </div>
-          <div class="carts">
-            <img src="./peugeot-removebg-preview.png" alt="peugeot" id="peug" />
-            <p>Solicita turno para tu PEUGEOT</p>
-          </div>
-          <div class="carts">
-            <img src="./fiat-removebg-preview.png" alt="fiat" id="fiat" />
-            <p>Solicita turno para tu FIAT</p>
-          </div>
+
+    <!--section-carts-->
+    <section class="descrition-section" id="servicios">
+      <div class="cards__container">
+        <div class="carts">
+          <img src="./chevrolet-removebg-preview.png" alt="chevrolet" id="chev" />
+          <p>TRABAJAMOS</p>
         </div>
-      </section>
-    </main>
-  </body>
+        <div class="carts">
+          <img src="./volkswagen-removebg-preview.png" alt="volkswagen" id="vw" />
+          <p>LAS MEJORES</p>
+        </div>
+        <div class="carts">
+          <img src="./peugeot-removebg-preview.png" alt="peugeot" id="peug" />
+          <p>MARCAS</p>
+        </div>
+        <div class="carts">
+          <img src="./fiat-removebg-preview.png" alt="fiat" id="fiat" />
+          <p>PEDI TU TURNO</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
 
-  <footer class="pie-de-pagina">
-    <h3><i class="fa-solid fa-hand-point-down"></i>PODES ENCONTRARNOS <i class="fa-solid fa-hand-point-down"></i></h3>
-    
-    <div class="box">
-          <img id="img-footer" src="./Logo.png" alt="logo-footer"/>
-      
-      </div>
-      <div class="red-social">
-        <ul>
-        <li>
-          SEGUIME EN FACEBOOK  <i class="fa-solid fa-hand-point-right"></i>
-          <a
-            href="https://www.facebook.com/mauro.perezacosta.75"
-            target="_blank"
-            class="facebook"
-          >
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-        </li>
-        <li>
-          SEGUIME EN INSTAGRAM <i class="fa-solid fa-hand-point-right"></i> <a
-            href="https://www.instagram.com/tallerlosperez/?hl=es"
-            target="_blank" class="instagram"
-            ><i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-      </div>
-    </div>
-    <div class="box1">
-      <small
-        ><i class="fa-solid fa-copyright"></i> <b>2022 PEREZITO</b> - Todos Los
-        Derechos Reservados.</small
-      >
-    </div>
-  </footer>
+<footer class="pie-de-pagina">
+  <h3><i class="fa-solid fa-hand-point-down"></i>PODES ENCONTRARNOS <i class="fa-solid fa-hand-point-down"></i></h3>
+
+  <div class="box">
+    <img id="img-footer" src="./Logo.png" alt="logo-footer" />
+
+  </div>
+  <div class="red-social">
+    <ul>
+      <li>
+        SEGUIME EN FACEBOOK <i class="fa-solid fa-hand-point-right"></i>
+        <a href="https://www.facebook.com/mauro.perezacosta.75" target="_blank" class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        SEGUIME EN INSTAGRAM <i class="fa-solid fa-hand-point-right"></i> <a
+          href="https://www.instagram.com/tallerlosperez/?hl=es" target="_blank" class="instagram"><i
+            class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+  <div class="box1">
+    <small><i class="fa-solid fa-copyright"></i> <b>2022 PEREZITO</b> - Todos Los
+      Derechos Reservados.</small>
+  </div>
+</footer>
+
 </html>
