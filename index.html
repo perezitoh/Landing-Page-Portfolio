@@ -17,18 +17,25 @@
   <div class="header-container">
     <header>
       <!-- navlist -->
+
       <div class="logo-container">
         <img src="Logo.png" alt="logo" />
       </div>
       <nav class="navbar">
-        <ul class="nav-list">
-          <li><a href="#inicio" class="list">INICIO</a></li>
-          <li><a href="#servicios" class="list">SERVICIOS</a></li>
-          <li><a href="productos" class="list">NOSOTROS</a></li>
-          <li><a href="contacto" class="list">CONTACTO</a></li>
+        <label for="menu-toggle">
+          <div class="menu-button">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </label>
+        <input form="checkbox" id="menu-toggle" class="menu-toggle">
+        <ul class="toggle">
+            <li><a href="#inicio" class="list">INICIO</a></li>
+            <li><a href="#Turnos" class="list">TURNOS</a></li>
+            <li><a href="#productos" class="list">PRODUCTOS</a></li>
+            <li><a href="#contacto" class="list">CONTACTO</a></li>
         </ul>
-      </nav>
-    </header>
+  </nav>
+  </header>
   </div>
   <!-- section-container-->
   <main>
@@ -74,57 +81,68 @@
 
 
     <!--section-carts-->
-    <section class="descrition-section" id="servicios">
-      <div class="cards__container">
-        <div class="carts">
-          <img src="./chevrolet-removebg-preview.png" alt="chevrolet" id="chev" />
-          <p>TRABAJAMOS</p>
+    <div class="section-container">
+      <section class="products-section-container">
+        <div class="cards-products">
+          <img src="./img/aceites.png">
+          <p class="cards-text"> CAMBIO DE ACEITE </p>
         </div>
-        <div class="carts">
-          <img src="./volkswagen-removebg-preview.png" alt="volkswagen" id="vw" />
-          <p>LAS MEJORES</p>
+        <div class="cards-products">
+          <img src="./img/Filtros.jpg">
+          <p class="cards-text">FILTROS </p>
         </div>
-        <div class="carts">
-          <img src="./peugeot-removebg-preview.png" alt="peugeot" id="peug" />
-          <p>MARCAS</p>
+        <div class="cards-products">
+          <img src="img./discos-de-freno.jpg">
+          <p class="cards-text">SISTEMA DE FRENO </p>
         </div>
-        <div class="carts">
-          <img src="./fiat-removebg-preview.png" alt="fiat" id="fiat" />
-          <p>PEDI TU TURNO</p>
+        <div class="cards-products">
+          <img src="./img/scanner automotriz.jpg">
+          <p class="cards-text">SCANNER AUTOMOTRIZ </p>
         </div>
-      </div>
-    </section>
+        <div class="cards-products">
+          <img src="./img/mecanica-ligera.jpg">
+          <p class="cards-text">MECANICA LIGERA </p>
+        </div>
+      </section>
+    </div>
   </main>
 </body>
 
-<footer class="pie-de-pagina">
-  <h3><i class="fa-solid fa-hand-point-down"></i>PODES ENCONTRARNOS <i class="fa-solid fa-hand-point-down"></i></h3>
+<div class="section-container">
+  <footer class="footer">
 
-  <div class="box">
-    <img id="img-footer" src="./Logo.png" alt="logo-footer" />
+    <div class="red-social">
+      <a href="https://www.facebook.com/mauro.perezacosta.75" target="_blank">
+        <i class="fa-brands fa-facebook"></i> Facebook
+      </a>
 
-  </div>
-  <div class="red-social">
-    <ul>
-      <li>
-        SEGUIME EN FACEBOOK <i class="fa-solid fa-hand-point-right"></i>
-        <a href="https://www.facebook.com/mauro.perezacosta.75" target="_blank" class="facebook">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-      </li>
-      <li>
-        SEGUIME EN INSTAGRAM <i class="fa-solid fa-hand-point-right"></i> <a
-          href="https://www.instagram.com/tallerlosperez/?hl=es" target="_blank" class="instagram"><i
-            class="fa-brands fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-  </div>
-  <div class="box1">
-    <small><i class="fa-solid fa-copyright"></i> <b>2022 PEREZITO</b> - Todos Los
-      Derechos Reservados.</small>
-  </div>
+      <a href="https://www.instagram.com/tallerlosperez/?hl=es" target="_blank" class="instagram"><i
+          class="fa-brands fa-instagram"></i> Instagram
+      </a>
+    </div>
+
+    <div class="contacto">
+      <ul>
+        <li>Leopoldo Marechal 1240</li>
+        <li> 11-3373-7972</li>
+        <li> Perezdpa@hotmail.com</li>
+      </ul>
+
+    </div>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.006328824622!2d-58.4404318!3d-34.6041215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9161056113a152a!2sLubricentro%20Los%20P%C3%A9rez!5e0!3m2!1ses-419!2sar!4v1659311159646!5m2!1ses-419!2sar"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</div>
+
+
+<div class="box">
+  <small><i class="fa-solid fa-copyright"></i> <b>2022 PEREZITO</b> - Todos Los
+    Derechos Reservados.</small>
+</div>
+</div>
 </footer>
 
 </html>
